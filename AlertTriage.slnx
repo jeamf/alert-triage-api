@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AlertTriage.Api/AlertTriage.Api.csproj" />
+    <Project Path="src/AlertTriage.Application/AlertTriage.Application.csproj" />
+    <Project Path="src/AlertTriage.Domain/AlertTriage.Domain.csproj" />
+    <Project Path="src/AlertTriage.Infrastructure/AlertTriage.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AlertTriage.UnitTests/AlertTriage.UnitTests.csproj" />
+  </Folder>
+</Solution>
