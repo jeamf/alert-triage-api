@@ -20,6 +20,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             e.Property(a => a.Status).HasConversion<string>().HasMaxLength(20);
             e.HasIndex(a => a.Fingerprint);
             e.HasIndex(a => a.CreatedAtUtc);
+            e.HasIndex(a => a.LastSeenAtUtc);
         });
     }
 }
